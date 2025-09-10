@@ -1,4 +1,4 @@
-# A.I Comments Reply with GPT (OpenAI) 2.0.0 
+# A.I Comments Reply with GPT 
 ###### WordPress Plugins by Volkan Sah - Simple codings (Realesed 27.08.2024)
 ![WordPress](https://img.shields.io/badge/WordPress-Compatible-blue.svg)
 ![Version](https://img.shields.io/badge/version-2.0.0-orange.svg)
