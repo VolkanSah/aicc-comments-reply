@@ -17,7 +17,6 @@ A.I Comments Reply with GPT is a WordPress plugin designed to simplify the manag
 - [Limitations](#limitations)
 - [License](#license)
 - [Disclaimer](#disclaimer)
-- [Screenshots](#screenshots)
 
 ## Installation
 
@@ -61,11 +60,7 @@ This plugin uses OpenAI's API, which is a third-party service. Please review Ope
 
 ## Screenshots
 
-### Option-Page
-![Screenshot of Option Page](wpwm_comments_optionpage.png)
-
-### Comments reply
-![Screenshot of comment view](comments_review_2.png)
+See Github-Pages
 
 ## Thank you for your support!
 
