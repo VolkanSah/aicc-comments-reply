@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.I Comments Reply with GPT - WordPress Plugin</title>
+    <link rel="icon" type="image/x-icon" href="https://static.photos/technology/32x32/42">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #6e8efb 0%, #a777e3 100%);
+        }
+        .github-corner:hover .octo-arm {
+            animation: octocat-wave 560ms ease-in-out;
+        }
+        @keyframes octocat-wave {
+            0%, 100% { transform: rotate(0); }
+            20%, 60% { transform: rotate(-25deg); }
+            40%, 80% { transform: rotate(10deg); }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans antialiased">
+    <!-- GitHub Corner -->
+    <a href="https://github.com/VolkanSah/aicc-comments-reply" class="github-corner fixed top-0 right-0 z-50" aria-label="View source on GitHub">
+        <svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
+            <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+            <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+            <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path>
+        </svg>
+    </a>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white py-20 px-4">
+        <div class="container mx-auto max-w-6xl">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6">A.I Comments Reply with GPT</h1>
+                    <p class="text-xl mb-8">Streamline your WordPress comment management with AI-powered replies using OpenAI's GPT models.</p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#features" class="bg-white text-purple-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition duration-300">Explore Features</a>
+                        <a href="https://github.com/VolkanSah/aicc-comments-reply" class="bg-transparent border-2 border-white hover:bg-white hover:text-purple-600 px-6 py-3 rounded-lg font-semibold transition duration-300 flex items-center">
+                            <i data-feather="github" class="mr-2"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2" data-aos="fade-left">
+                    <img src="wpwm_comments_optionpage.png" alt="Plugin Option Page" class="rounded-xl shadow-2xl border-4 border-white">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 px-4 bg-white">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-3xl font-bold text-center mb-16" data-aos="fade-up">Key Features</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-purple-600 mb-4">
+                        <i data-feather="zap" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Streamlined Functionality</h3>
+                    <p class="text-gray-600">Focused solely on generating comment replies using AI, without unnecessary bloat or hidden costs.</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-purple-600 mb-4">
+                        <i data-feather="heart" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Free & Open Source</h3>
+                    <p class="text-gray-600">Completely free to use, aligning with the open-source philosophy of WordPress.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300" data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-purple-600 mb-4">
+                        <i data-feather="shield" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Advanced Moderation</h3>
+                    <p class="text-gray-600">Integrates OpenAI's Moderation API to ensure appropriate content before generating replies.</p>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-purple-600 mb-4">
+                        <i data-feather="cpu" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Multiple GPT Models</h3>
+                    <p class="text-gray-600">Supports a variety of GPT models to fit your needs and budget.</p>
+                </div>
+                
+                <!-- Feature 5 -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-purple-600 mb-4">
+                        <i data-feather="settings" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Easy Configuration</h3>
+                    <p class="text-gray-600">Simple setup with all necessary settings available in WordPress admin area.</p>
+                </div>
+                
+                <!-- Feature 6 -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300" data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-purple-600 mb-4">
+                        <i data-feather="message-square" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">One-Click AI Replies</h3>
+                    <p class="text-gray-600">Generate context-aware replies with just one click from the comments screen.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section class="py-20 px-4 bg-gray-50">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-3xl font-bold text-center mb-16" data-aos="fade-up">Screenshots</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-4 rounded-xl shadow-md" data-aos="fade-right">
+                    <img src="wpwm_comments_optionpage.png" alt="Plugin Option Page" class="rounded-lg w-full">
+                    <p class="text-center mt-4 text-gray-600">Plugin Settings Page</p>
+                </div>
+                <div class="bg-white p-4 rounded-xl shadow-md" data-aos="fade-left">
+                    <img src="comments_review_2.png" alt="Comment Reply Interface" class="rounded-lg w-full">
+                    <p class="text-center mt-4 text-gray-600">AI Reply Button in Comments</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Installation Section -->
+    <section class="py-20 px-4 bg-white">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-3xl font-bold text-center mb-16" data-aos="fade-up">Installation</h2>
+            
+            <div class="bg-gray-50 rounded-xl p-8 shadow-md" data-aos="fade-up">
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                        <h3 class="text-2xl font-semibold mb-6 text-purple-600">Quick Setup</h3>
+                        <ol class="list-decimal pl-5 space-y-4 text-gray-700">
+                            <li>Upload the plugin files to the <code class="bg-gray-200 px-2 py-1 rounded">/wp-content/plugins/aicc-comments-reply</code> directory</li>
+                            <li>Activate the plugin through the WordPress plugins screen</li>
+                            <li>Go to Settings → AICC OpenAI Comment Reply</li>
+                            <li>Enter your OpenAI API key and configure settings</li>
+                            <li>Start using the "Reply with A.I" button in comments</li>
+                        </ol>
+                    </div>
+                    <div class="md:w-1/2">
+                        <h3 class="text-2xl font-semibold mb-6 text-purple-600">Requirements</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="text-green-500 mr-3 mt-1"></i>
+                                <span>WordPress 5.0 or higher</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="text-green-500 mr-3 mt-1"></i>
+                                <span>PHP 7.4 or higher</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="text-green-500 mr-3 mt-1"></i>
+                                <span>OpenAI API key (free trial available)</span>
+                            </li>
+                        </ul>
+                        
+                        <div class="mt-8 p-4 bg-purple-50 rounded-lg border border-purple-100">
+                            <h4 class="font-semibold text-purple-700 mb-2 flex items-center">
+                                <i data-feather="alert-circle" class="mr-2"></i> Important Note
+                            </h4>
+                            <p class="text-purple-600">The plugin requires an OpenAI API key to function. You can get one from <a href="https://platform.openai.com/" class="underline hover:text-purple-800">OpenAI's website</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="gradient-bg text-white py-20 px-4">
+        <div class="container mx-auto max-w-4xl text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6" data-aos="fade-up">Ready to Transform Your Comment Management?</h2>
+            <p class="text-xl mb-10" data-aos="fade-up" data-aos-delay="100">Get started with A.I Comments Reply with GPT today and save time while engaging your audience.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4" data-aos="fade-up" data-aos-delay="200">
+                <a href="https://github.com/VolkanSah/aicc-comments-reply/archive/refs/heads/main.zip" class="bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition duration-300 flex items-center justify-center">
+                    <i data-feather="download" class="mr-2"></i> Download Now
+                </a>
+                <a href="https://github.com/VolkanSah/aicc-comments-reply" class="bg-transparent border-2 border-white hover:bg-white hover:text-purple-600 px-8 py-4 rounded-lg font-semibold text-lg transition duration-300 flex items-center justify-center">
+                    <i data-feather="github" class="mr-2"></i> View on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12 px-4">
+        <div class="container mx-auto max-w-6xl">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-white text-lg font-semibold mb-4">A.I Comments Reply with GPT</h3>
+                    <p>A WordPress plugin that simplifies comment management using OpenAI's GPT models.</p>
+                </div>
+                <div>
+                    <h3 class="text-white text-lg font-semibold mb-4">Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#features" class="hover:text-white transition duration-300">Features</a></li>
+                        <li><a href="#installation" class="hover:text-white transition duration-300">Installation</a></li>
+                        <li><a href="https://github.com/VolkanSah/aicc-comments-reply/issues" class="hover:text-white transition duration-300">Report Issues</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white text-lg font-semibold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="https://github.com/VolkanSah" class="hover:text-white transition duration-300">
+                            <i data-feather="github" class="w-5 h-5"></i>
+                        </a>
+                        <a href="https://github.com/sponsors/volkansah" class="hover:text-white transition duration-300">
+                            <i data-feather="heart" class="w-5 h-5"></i>
+                        </a>
+                    </div>
+                    <p class="mt-4">Licensed under Creative Commons Attribution 4.0</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p>© 2023-2025 A.I Comments Reply with GPT. Created by <a href="https://github.com/VolkanSah" class="text-purple-400 hover:text-purple-300">Volkan Kücükbudak</a>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+        feather.replace();
+        
+        // GitHub corner animation
+        const githubCorner = document.querySelector('.github-corner');
+        if (githubCorner) {
+            githubCorner.addEventListener('mouseenter', () => {
+                const octoArm = document.querySelector('.octo-arm');
+                octoArm.style.animation = 'octocat-wave 560ms ease-in-out';
+            });
+        }
+    </script>
+</body>
+</html>
